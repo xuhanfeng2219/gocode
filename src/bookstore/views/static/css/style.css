@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+body {
+    overflow: hidden;
+}
+
+* {
+    margin: 0;
+    font-family: "Microsoft YaHei UI";
+    color: #666;
+}
+
+div {
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#header {
+    height: 82px;
+    width: 100px;
+}
+
+#main {
+    height: 460px;
+    width: 1200px;
+    border: 1px black solid;
+    overflow: auto;
+}
+
+#bottom {
+    height: 30px;
+    width: 1200px;
+    text-align: center;
+}
+
+#book {
+    width: 100%;
+    height: 90%;
+    margin: auto;
+}
+
+.b_list {
+    height: 300px;
+    width: 250px;
+    margin: 20px;
+    float: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 1px #e3e3e3 solid;
+}
+
+#page_nav {
+    width: 100%;
+    height: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+#pn_input {
+    width: 30px;
+    text-align: center;
+}
+
+.img_div {
+    height: 150px;
+    text-align: center;
+}
+
+.book_img {
+    height: 150px;
+    width: 150px;
+}
+
+.book_info {
+    text-align: center;
+}
+
+.book_info div {
+    height: 10px;
+    width: 300px;
+    text-align: left;
+}
+
+.wel_word {
+    font-size: 60px;
+    float: left;
+}
+
+.logo_img {
+    float: left;
+}
+
+#header div a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#header div {
+    float: right;
+    margin-top: 55px;
+}
+
+.book_cond {
+    margin-left: 500px;
+}
+
+.book_cond input {
+    width: 50px;
+    text-align: center;
+}
+
+/*登录界面css样式*/
